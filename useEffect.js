@@ -6,7 +6,7 @@ import { use, useState,useEffect } from 'react';
 const App = () => {
   const [count, setCount] = useState(0);
   
-  useEffect(()=>{
+  useEffect(()=>{                                                              // If we pass empty array then only one time it renders the title
     document.title = `Counter : ${count}`;
   });
   return(
