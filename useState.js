@@ -11,6 +11,10 @@ const App = () => {
   }
   return(
     <div>
+            <input 
+        type="text" 
+        onChange={(e)=>e.target.value}
+      />
       <h1>Counter : {counter}</h1>
       <button onClick={increase}>Increase</button>
     </div>
