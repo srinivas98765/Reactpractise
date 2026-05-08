@@ -26,3 +26,7 @@ export default App;
 
 
 // the useEffect is executed when it is mounted, unmounted, updated
+// cleanup function 
+// Fetching data from Api
+//updating Dom -document & window
+// Timer Function - setInterval and setTimers
