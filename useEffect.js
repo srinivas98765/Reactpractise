@@ -23,3 +23,6 @@ const App = () => {
 }
 
 export default App;
+
+
+// the useEffect is executed when it is mounted, unmounted, updated
